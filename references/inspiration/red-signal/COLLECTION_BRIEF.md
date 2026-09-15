@@ -107,6 +107,11 @@ yellow images visibly part of the Red Signal collection.
   the far optic can narrow or overlap from perspective, but it must never drift
   onto the temple or side shell. Treat optic placement as helmet geometry, not
   as two decorative red circles placed independently.
+- Story action takes priority over displaying the helmet design. When she is
+  putting it on, align the opening with her head and point the faceplate in the
+  direction she will face. It is acceptable for perspective to hide one optic
+  or most of both optics. Never rotate the helmet toward the viewer merely to
+  showcase them; that turns a functional moment into a trophy pose.
 - The skull-like figure from the first reference becomes only a broad prompt for
   an original defeated adversary: a skeletal surveillance machine or hollow
   armored drone, not a human skeleton and not a reproduction of the reference
