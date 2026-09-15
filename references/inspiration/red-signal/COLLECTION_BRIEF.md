@@ -17,13 +17,60 @@ flagship visual directions. It can be renamed before release.
 - Rebellious and futuristic without depending on an existing franchise,
   character, band, logo, uniform, or recognizable product.
 
-## Original subject directions
+## Recurring lead character
 
-Good starting points include masked couriers, rogue radio operators, street
-musicians, biomechanical sentinels, anonymous rebels, and invented machines.
-Each subject needs an original silhouette, face covering, clothing system,
-hardware, insignia, and pose. Do not reproduce the references' masks,
-headphones, spikes, costumes, symbols, equipment, or compositions.
+The first generated woman becomes the visual anchor of Red Signal rather than a
+one-off subject. She is an original adult Black warrior with a consistent face,
+long braids and metal braid cuffs, angular bone-white paint around the eyes,
+facial piercings, a distressed black structured jacket with silver spikes, and
+layered metallic necklaces. Her attitude is composed and formidable rather
+than angry in every image.
+
+The character does not require a public name. Internally, `Signal Bearer` can be
+used as a role label until the collection needs story copy. Customers browse
+the named Red Signal collection; individual images remain untitled.
+
+Before producing the full wallpaper set, create one approved character sheet
+covering front, three-quarter, profile, and full-body views; face-paint geometry;
+braid arrangement; jewelry; jacket construction; and the removable helmet.
+That sheet becomes the identity reference for every later pose so her facial
+structure, skin tone, body proportions, and equipment do not drift.
+
+## Helmet and adversary
+
+- Give her an original black combat helmet influenced only by the broad idea of
+  the fourth reference: sculpted armor, a severe silhouette, and restrained red
+  illuminated optics. Do not duplicate its gas mask, circular filters, red
+  symbols, cabling, or panel layout.
+- Design the helmet for three recurring states: held at her side, being placed
+  over her head, and fully worn. Its silhouette must remain recognizable in all
+  three.
+- The skull-like figure from the first reference becomes only a broad prompt for
+  an original defeated adversary: a skeletal surveillance machine or hollow
+  armored drone, not a human skeleton and not a reproduction of the reference
+  character. Its broken form can appear at her feet or in the background to
+  imply victory without requiring graphic gore.
+
+## Wallpaper scene families
+
+The set should vary framing, motion, and environment while keeping the lead
+character and visual system consistent:
+
+1. **Icon portrait** — face and shoulders, different three-quarter angles and
+   expressions; ideal for the clearest character-focused choices.
+2. **Helmet sequence** — holding the helmet, lifting it into place, and fully
+   armored close-ups.
+3. **Warrior action** — guarded stance, sprint, landing, turning toward a threat,
+   or bracing against impact; avoid generic weapon-pinup poses.
+4. **Aftermath** — standing over a disabled skeletal machine, walking away from
+   wreckage, or examining a captured component.
+5. **Environment** — full- or three-quarter-body views in original red-lit
+   industrial corridors, rooftops, signal towers, or abstract battlefields.
+6. **Graphic silhouette** — simplified poster compositions that read strongly
+   behind home-screen icons.
+
+Use occasional hazard yellow or burnt orange as a secondary signal color in a
+minority of the set. Red and black remain the collection signature.
 
 ## Phone-first composition
 
