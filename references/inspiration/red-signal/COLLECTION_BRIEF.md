@@ -36,6 +36,45 @@ braid arrangement; jewelry; jacket construction; and the removable helmet.
 That sheet becomes the identity reference for every later pose so her facial
 structure, skin tone, body proportions, and equipment do not drift.
 
+She can rotate through multiple outfits instead of wearing one permanent
+uniform. The consistent anchors are her face, braids, eye-paint language,
+attitude, and a small set of repeated jewelry or hardware motifs. Some images
+can show the spiked jacket; others can use lighter combat clothing, ceremonial
+layers, or an unarmored look. The helmet is optional equipment, not part of her
+head or identity.
+
+## Reference synthesis rules
+
+Treat the four reference images as one pool of broad ingredients rather than
+four characters to recreate:
+
+- **Reference 1:** enemy energy and a skeletal mechanical silhouette. Translate
+  it into original hostile machines, defeated armor, or surveillance drones.
+- **Reference 2:** the starting point for the lead's presence, exposed face,
+  braids, graphic facial treatment, and confident portrait energy.
+- **Reference 3:** spiked punk outerwear, aggressive helmet language, graphic
+  bursts, and the option for a yellow/black colorway.
+- **Reference 4:** layered necklaces, tactical hardware, armored detailing, and
+  additional helmet/face-covering ideas.
+
+Never assemble the exact identifiable elements into a collage. Redesign every
+mask, helmet, garment, adversary, symbol, and piece of jewelry so the finished
+world belongs to Blaze.
+
+## Color modes
+
+Red Signal is the world and collection name, not a rule that every wallpaper
+must be red. Use three coordinated modes:
+
+1. **Signal red** — red, black, bone white, and silver; the dominant identity.
+2. **Hazard yellow** — yellow, black, warm white, and restrained red; allowed as
+   the primary palette for selected wallpapers.
+3. **Ember blend** — red with burnt orange or amber accents for environments,
+   impacts, warning light, or atmosphere.
+
+The same halftone, ink texture, character design, and graphic composition keep
+yellow images visibly part of the Red Signal collection.
+
 ## Helmet and adversary
 
 - Give her an original black combat helmet influenced only by the broad idea of
@@ -50,6 +89,15 @@ structure, skin tone, body proportions, and equipment do not drift.
   armored drone, not a human skeleton and not a reproduction of the reference
   character. Its broken form can appear at her feet or in the background to
   imply victory without requiring graphic gore.
+
+## Expanding the cast
+
+The lead character launches the collection but does not have to carry it alone
+forever. Later additions can include allies, rival warriors, technicians,
+scouts, and several classes of machine adversary. New characters must share the
+same world language—print texture, hardware logic, palette, and punk-futurist
+attitude—while having clearly different faces, silhouettes, equipment, and
+roles. Introduce them gradually after the lead character is visually stable.
 
 ## Wallpaper scene families
 
