@@ -117,6 +117,27 @@ same world language—print texture, hardware logic, palette, and punk-futurist
 attitude—while having clearly different faces, silhouettes, equipment, and
 roles. Introduce them gradually after the lead character is visually stable.
 
+## Recurring props
+
+### Heavy street motorcycle
+
+The first prop reference is an Indian-branded motorcycle photograph stored in
+`props/motorcycle-reference-01.jpg`. It is reference-only and must never ship in
+the app or be reproduced with its branding, badges, exact tank, engine covers,
+or proprietary details.
+
+Translate its broad appeal into an original Red Signal motorcycle: low black
+stance, oversized front tire, compact solo saddle, muscular exposed twin-engine
+mass, short rear section, minimal bodywork, and a planted industrial silhouette.
+It should feel heavy, mechanical, and credible rather than like a sleek racing
+bike. Remove all real-world names, logos, and model-specific ornament.
+
+Useful compositions include the lead sitting sideways on the parked bike,
+leaning against it, standing beside it while fitting the helmet, holding the
+helmet over the tank, a low front three-quarter hero angle, and riding
+silhouettes. Treat the motorcycle as an occasional story prop, not a required
+element in every Red Signal wallpaper.
+
 ## Wallpaper scene families
 
 The set should vary framing, motion, and environment while keeping the lead
