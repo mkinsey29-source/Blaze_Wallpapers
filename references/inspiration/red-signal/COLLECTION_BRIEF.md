@@ -144,7 +144,8 @@ The set should vary framing, motion, and environment while keeping the lead
 character and visual system consistent:
 
 1. **Icon portrait** — face and shoulders, different three-quarter angles and
-   expressions; ideal for the clearest character-focused choices.
+   expressions; ideal for the clearest character-focused choices and the main
+   place where direct viewer eye contact is appropriate.
 2. **Helmet sequence** — holding the helmet, lifting it into place, and fully
    armored close-ups.
 3. **Warrior action** — guarded stance, sprint, landing, turning toward a threat,
@@ -191,6 +192,21 @@ Use this approximate visual hierarchy:
   shifted for both uses.
 - Prefer a strong chest-up portrait or full-height silhouette with enough open
   background to preserve impact on small screens.
+
+### Camera awareness and scene behavior
+
+Reserve direct eye contact with the viewer for intentional portrait images.
+Action, environment, aftermath, equipment, and motorcycle scenes should feel
+observed rather than posed. In those images, her attention belongs inside the
+scene: toward the road, helmet, motorcycle controls, adversary, destination,
+ally, or off-frame threat.
+
+Vary the camera relationship with profiles, rear three-quarter views,
+over-the-shoulder framing, side angles, high and low obliques, motion crops, and
+moments where her face is only partly visible. Her pose should show believable
+weight, contact, and purpose. Do not repeatedly use the low-angle, chin-raised,
+straight-at-camera stance; it makes distinct wallpapers read as the same staged
+character poster.
 
 ## Quality lift
 
