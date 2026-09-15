@@ -14,6 +14,11 @@ composition, gallery density, and potential category breadth.
 Production artwork must be independently created from original briefs and pass
 the rights and quality checks in `DESIGN_INSIGHTS.md`.
 
+The `red-signal/` folder captures a particularly strong user preference for
+red/black neo-punk screen-print energy. Its `COLLECTION_BRIEF.md` converts that
+preference into an original, commercially safer Blaze direction. The four JPGs
+remain reference-only and must never be treated as catalog assets.
+
 ## Reference boards
 
 | File | Broad signals to study |
@@ -27,4 +32,3 @@ the rights and quality checks in `DESIGN_INSIGHTS.md`.
 | `gallery-board-07.jpg` | Minimal icons, cute subjects, monochrome contrast, space and simple compositions |
 | `gallery-board-08.jpg` | Black-and-white abstraction, texture, line work and high-contrast minimalism |
 | `gallery-board-09.jpg` | Soft minimalism, centered objects, pastels, silhouettes and sparse compositions |
-

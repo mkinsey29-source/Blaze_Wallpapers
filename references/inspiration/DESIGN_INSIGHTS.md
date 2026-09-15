@@ -29,6 +29,8 @@ copies of individual reference images:
 6. **Ink & Form** — monochrome abstraction, flowing lines, paper and stone.
 7. **Botanical Calm** — flowers, leaves, misty forests, and subtle seasonal color.
 8. **Painted Worlds** — stylized original landscapes with controlled palettes.
+9. **Red Signal** — red/black neo-punk portraits, screen-print texture, and
+   original cybernetic silhouettes.
 
 Seasonal packs can borrow a collection's established language instead of
 becoming a disconnected set of holiday clip art.
@@ -66,4 +68,3 @@ Do not reproduce or imitate recognizable anime/game characters, franchise
 costumes, logos, branded products, famous artwork, living artists' signatures,
 or reference compositions closely enough to function as substitutes. Extract
 only general design principles and create every production brief from scratch.
-
