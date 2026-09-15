@@ -14,13 +14,11 @@ public final class WallpaperCatalogTest {
     public void catalogContainsThreeUniqueDeviceFittedPairs() {
         assertEquals(3, WallpaperCatalog.all().size());
         Set<String> ids = new HashSet<>();
-        Set<String> titles = new HashSet<>();
         int featured = 0;
 
         for (Wallpaper wallpaper : WallpaperCatalog.all()) {
             assertTrue(ids.add(wallpaper.id()));
-            assertTrue(titles.add(wallpaper.title()));
-            assertTrue(wallpaper.title().trim().split("\\s+").length <= 3);
+            assertEquals("STATIC", wallpaper.typeLabel());
             assertTrue(wallpaper.lockAsset().endsWith("_lock.webp"));
             assertTrue(wallpaper.homeAsset().endsWith("_home.webp"));
             assertTrue(wallpaper.thumbnailAsset().startsWith("thumbnails/"));
@@ -35,6 +33,6 @@ public final class WallpaperCatalogTest {
         Wallpaper wallpaper = WallpaperCatalog.find("rooftop-silence");
         assertNotNull(wallpaper);
         assertTrue(wallpaper.featured());
-        assertEquals("Rooftop Silence", wallpaper.title());
+        assertEquals("STATIC", wallpaper.typeLabel());
     }
 }

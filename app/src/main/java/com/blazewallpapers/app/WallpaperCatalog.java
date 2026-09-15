@@ -10,8 +10,8 @@ public final class WallpaperCatalog {
     private static final List<Wallpaper> ITEMS = Collections.unmodifiableList(Arrays.asList(
             new Wallpaper(
                     "rooftop-silence",
-                    "Rooftop Silence",
                     "Rain above the city. One empty chair. A view that belongs to no one.",
+                    "STATIC",
                     "thumbnails/rooftop_silence.webp",
                     "wallpapers/rooftop_silence_lock.webp",
                     "wallpapers/rooftop_silence_home.webp",
@@ -20,8 +20,8 @@ public final class WallpaperCatalog {
             ),
             new Wallpaper(
                     "solitary-station",
-                    "Solitary Station",
                     "A quiet cyan refuge glowing against a rain-dark mountain road.",
+                    "STATIC",
                     "thumbnails/solitary_station.webp",
                     "wallpapers/solitary_station_lock.webp",
                     "wallpapers/solitary_station_home.webp",
@@ -30,8 +30,8 @@ public final class WallpaperCatalog {
             ),
             new Wallpaper(
                     "last-bus",
-                    "Last Bus",
                     "The road is empty, the shelter is warm, and the final bus is gone.",
+                    "STATIC",
                     "thumbnails/last_bus.webp",
                     "wallpapers/last_bus_lock.webp",
                     "wallpapers/last_bus_home.webp",
@@ -53,4 +53,3 @@ public final class WallpaperCatalog {
         return null;
     }
 }
-

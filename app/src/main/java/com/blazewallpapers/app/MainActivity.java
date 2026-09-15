@@ -197,7 +197,8 @@ public final class MainActivity extends Activity {
         card.setClipToOutline(true);
         card.setBackground(Ui.rounded(Ui.PANEL, 24, this));
         card.setOutlineProvider(ViewOutlineProviders.ROUNDED_24);
-        card.setContentDescription("Open " + wallpaper.title());
+        card.setContentDescription("Open " + WallpaperCatalog.COLLECTION_NAME
+                + " " + wallpaper.typeLabel().toLowerCase() + " wallpaper");
 
         ImageView image = new ImageView(this);
         image.setScaleType(ImageView.ScaleType.CENTER_CROP);
@@ -240,24 +241,16 @@ public final class MainActivity extends Activity {
             renderCatalog();
         });
 
-        LinearLayout copy = new LinearLayout(this);
-        copy.setOrientation(LinearLayout.VERTICAL);
-        copy.setPadding(Ui.dp(this, 18), Ui.dp(this, 12), Ui.dp(this, 18), Ui.dp(this, 17));
-
-        TextView title = Ui.label(this, wallpaper.title(), wallpaper.featured() ? 25 : 22, Ui.TEXT, true);
-        copy.addView(title);
-
-        TextView collection = Ui.label(this, WallpaperCatalog.COLLECTION_NAME, 10, 0xFFD3DAE4, true);
-        collection.setLetterSpacing(0.1f);
-        LinearLayout.LayoutParams collectionParams = new LinearLayout.LayoutParams(
-                ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
-        collectionParams.topMargin = Ui.dp(this, 7);
-        copy.addView(collection, collectionParams);
-
-        FrameLayout.LayoutParams copyParams = new FrameLayout.LayoutParams(
-                ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT,
-                Gravity.BOTTOM);
-        card.addView(copy, copyParams);
+        TextView type = Ui.label(this, wallpaper.typeLabel(), 10, Ui.TEXT, true);
+        type.setLetterSpacing(0.12f);
+        type.setGravity(Gravity.CENTER);
+        type.setBackground(Ui.outlined(0xC9070B12, 0x663D5268, 14, this));
+        Ui.setPadding(type, 11, 7);
+        FrameLayout.LayoutParams typeParams = new FrameLayout.LayoutParams(
+                ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT,
+                Gravity.BOTTOM | Gravity.START);
+        typeParams.setMargins(Ui.dp(this, 16), 0, 0, Ui.dp(this, 16));
+        card.addView(type, typeParams);
 
         card.setOnClickListener(view -> {
             Intent intent = new Intent(this, PreviewActivity.class);

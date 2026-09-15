@@ -1,25 +1,26 @@
 # Catalog naming policy
 
-Every Blaze wallpaper receives both:
+Blaze names the catalog structures customers browse, not every individual
+picture. The public naming hierarchy is:
 
-1. A stable internal ID used by the app, purchases, favorites, support, and
-   analytics. IDs never change after release.
-2. A short customer-facing title, normally one to three words, used in the
-   gallery, favorites, search, sharing, and accessibility labels.
+1. **Collection/category:** the artistic family, such as `Neon Solitude`.
+2. **Type:** the technical experience, initially `Static`, with `Parallax` and
+   `Motion` reserved for later products.
 
-Names apply to static and parallax wallpapers alike. Premium status is separate
-metadata represented by a badge or pack entitlement; a title never determines
-whether an item is free or paid.
+Every picture still receives a stable internal asset ID used by the app,
+purchases, favorites, support, analytics, and provenance. IDs never change after
+release. Descriptive slugs may remain in source control to help production, but
+they are not customer-facing labels.
 
 ## Presentation rules
 
-- Titles appear as one clean line and are never embedded into the artwork.
-- Gallery cards show the title and collection only, not descriptive copy.
-- Preview screens show the title and the wallpaper destination question only.
+- The gallery names the collection and marks each card with its type.
+- Preview screens show the collection, type, and wallpaper destination question.
+- Individual picture names and descriptions do not appear in the selection flow.
 - Descriptions remain internal catalog metadata for store listings, search, and
   sharing, but do not clutter the core selection flow.
-- Titles must be distinctive within the full catalog and should describe the
-  mood or recognizable subject rather than use numbered generic labels.
+- Premium status is separate metadata represented by a badge or pack
+  entitlement; it is not inferred from the collection or type name.
 
 This keeps a large catalog operationally manageable while preserving the clean
 visual presentation of the app.

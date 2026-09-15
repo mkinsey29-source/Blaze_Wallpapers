@@ -157,16 +157,17 @@ public final class PreviewActivity extends Activity {
         panel.setOrientation(LinearLayout.VERTICAL);
         panel.setPadding(Ui.dp(this, 20), Ui.dp(this, 28), Ui.dp(this, 20), Ui.dp(this, 18));
 
-        TextView title = Ui.label(this, wallpaper.title(), 27, Ui.TEXT, true);
-        LinearLayout.LayoutParams titleParams = new LinearLayout.LayoutParams(
+        TextView type = Ui.label(this, wallpaper.typeLabel() + " WALLPAPER", 11, Ui.CYAN, true);
+        type.setLetterSpacing(0.12f);
+        LinearLayout.LayoutParams typeParams = new LinearLayout.LayoutParams(
                 ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
-        panel.addView(title, titleParams);
+        panel.addView(type, typeParams);
 
         TextView destinationPrompt = Ui.label(
                 this, "Where would you like to use it?", 14, 0xFFD2DAE4, false);
         LinearLayout.LayoutParams promptParams = new LinearLayout.LayoutParams(
                 ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
-        promptParams.topMargin = Ui.dp(this, 6);
+        promptParams.topMargin = Ui.dp(this, 9);
         panel.addView(destinationPrompt, promptParams);
 
         LinearLayout actions = new LinearLayout(this);
@@ -225,7 +226,7 @@ public final class PreviewActivity extends Activity {
         String destination = target == TARGET_HOME ? "home screen"
                 : target == TARGET_LOCK ? "lock screen" : "home and lock screens";
         new AlertDialog.Builder(this)
-                .setTitle("Apply " + wallpaper.title() + "?")
+                .setTitle("Apply this wallpaper?")
                 .setMessage("This will replace the wallpaper on your " + destination + ".")
                 .setNegativeButton("Cancel", null)
                 .setPositiveButton("Apply", (dialog, which) -> applyWallpaper(target))
