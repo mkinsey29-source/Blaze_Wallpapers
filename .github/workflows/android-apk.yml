@@ -34,6 +34,8 @@ jobs:
 
       - name: Install Android SDK 36
         uses: android-actions/setup-android@v3
+        with:
+          packages: platform-tools
 
       - name: Accept licenses and install SDK packages
         run: |
@@ -56,4 +58,3 @@ jobs:
           path: dist/*.apk
           if-no-files-found: error
           retention-days: 30
-
