@@ -102,6 +102,11 @@ yellow images visibly part of the Red Signal collection.
 - Design the helmet for three recurring states: held at her side, being placed
   over her head, and fully worn. Its silhouette must remain recognizable in all
   three.
+- The two round red optics are a paired binocular system on the helmet's forward
+  faceplate. Their centers share one structural eye line. In three-quarter views,
+  the far optic can narrow or overlap from perspective, but it must never drift
+  onto the temple or side shell. Treat optic placement as helmet geometry, not
+  as two decorative red circles placed independently.
 - The skull-like figure from the first reference becomes only a broad prompt for
   an original defeated adversary: a skeletal surveillance machine or hollow
   armored drone, not a human skeleton and not a reproduction of the reference
@@ -192,6 +197,10 @@ Use this approximate visual hierarchy:
   shifted for both uses.
 - Prefer a strong chest-up portrait or full-height silhouette with enough open
   background to preserve impact on small screens.
+- The user performs the real-device acceptance check by downloading each
+  full-resolution concept and setting it directly as wallpaper. Do not add a
+  duplicate phone-testing gate after that check; capture any feedback from the
+  user's installed view and revise the asset or composition accordingly.
 
 ### Camera awareness and scene behavior
 
