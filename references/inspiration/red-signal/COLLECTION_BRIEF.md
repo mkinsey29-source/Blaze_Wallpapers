@@ -30,6 +30,21 @@ The character does not require a public name. Internally, `Signal Bearer` can be
 used as a role label until the collection needs story copy. Customers browse
 the named Red Signal collection; individual images remain untitled.
 
+### Stylized anatomy and rendering
+
+Do not normalize her into realistic human concept-art proportions. The approved
+direction uses deliberate fashion-illustration exaggeration: a subtly longer,
+more elegant neck; reduced trapezius bulk; elongated vertical lines through the
+head, neck, and torso; and a sculpted warrior silhouette. The exaggeration must
+look intentional and graceful, never anatomically broken.
+
+Her rendering should also remain visibly authored rather than photographic:
+posterized grayscale value planes, simplified skin transitions, selectively
+drawn edges, graphic highlights, and restrained surface texture. Avoid pores,
+photorealistic skin shading, naturalistic neck musculature, and the dense
+cinematic rendering that made the first concepts feel like real people passed
+through a comic filter.
+
 Before producing the full wallpaper set, create one approved character sheet
 covering front, three-quarter, profile, and full-body views; face-paint geometry;
 braid arrangement; jewelry; jacket construction; and the removable helmet.
@@ -52,10 +67,10 @@ four characters to recreate:
   it into original hostile machines, defeated armor, or surveillance drones.
 - **Reference 2:** the starting point for the lead's presence, exposed face,
   braids, graphic facial treatment, and confident portrait energy.
-- **Reference 3:** spiked punk outerwear, aggressive helmet language, graphic
-  bursts, and the option for a yellow/black colorway.
-- **Reference 4:** layered necklaces, tactical hardware, armored detailing, and
-  additional helmet/face-covering ideas.
+- **Reference 3:** spiked punk outerwear, graphic bursts, and the option for a
+  yellow/black colorway.
+- **Reference 4:** the primary helmet reference, layered necklaces, tactical
+  hardware, and armored detailing.
 
 Never assemble the exact identifiable elements into a collage. Redesign every
 mask, helmet, garment, adversary, symbol, and piece of jewelry so the finished
@@ -77,10 +92,13 @@ yellow images visibly part of the Red Signal collection.
 
 ## Helmet and adversary
 
-- Give her an original black combat helmet influenced only by the broad idea of
-  the fourth reference: sculpted armor, a severe silhouette, and restrained red
-  illuminated optics. Do not duplicate its gas mask, circular filters, red
-  symbols, cabling, or panel layout.
+- The desired helmet language comes specifically from reference 4. Preserve its
+  appealing broad qualities: full-head black armor, an integrated face covering,
+  a severe smooth crown, paired round red optical forms, substantial side
+  respirator volumes, and dark hanging cable or braid-like elements. Redesign
+  the shell geometry, lens pattern, filter construction, fasteners, and cable
+  routing so Blaze owns a distinct helmet rather than merely substituting a
+  generic motorcycle helmet or copying the reference.
 - Design the helmet for three recurring states: held at her side, being placed
   over her head, and fully worn. Its silhouette must remain recognizable in all
   three.
@@ -119,6 +137,27 @@ character and visual system consistent:
 
 Use occasional hazard yellow or burnt orange as a secondary signal color in a
 minority of the set. Red and black remain the collection signature.
+
+## Background vocabulary and detail hierarchy
+
+Concentric target circles are one option, not the default background for every
+red wallpaper. Rotate among large flat color fields, diagonal slabs, offset
+rectangles, asymmetric arcs, radiating wedges, brush masses, torn-paper blocks,
+halftone gradients, and sparse distant silhouettes. Some compositions can be
+almost entirely solid red and black.
+
+Keep the area immediately behind the character simple. It should normally be
+one broad red, black, charcoal, or gray shape selected to separate her outline.
+Do not place detailed walls, railings, scaffolding, antennas, or dense industrial
+texture directly against her body. Environmental detail may appear farther away
+or low in the frame, where it supports depth without competing with her.
+
+Use this approximate visual hierarchy:
+
+1. Lead character: highest detail and sharpest contrast.
+2. Foreground story object or enemy: moderate detail.
+3. Distant environment: simplified silhouettes and restrained texture.
+4. Immediate backdrop: lowest detail, broad shapes, and clean separation.
 
 ## Phone-first composition
 
