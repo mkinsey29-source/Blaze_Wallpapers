@@ -42,10 +42,7 @@ public final class PreviewActivity extends Activity {
     private FavoriteStore favoriteStore;
     private ImageView preview;
     private TextView favoriteButton;
-    private TextView lockToggle;
-    private TextView homeToggle;
     private Bitmap displayedBitmap;
-    private boolean showingLock = true;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -160,33 +157,17 @@ public final class PreviewActivity extends Activity {
         panel.setOrientation(LinearLayout.VERTICAL);
         panel.setPadding(Ui.dp(this, 20), Ui.dp(this, 28), Ui.dp(this, 20), Ui.dp(this, 18));
 
-        LinearLayout variantRow = new LinearLayout(this);
-        variantRow.setBackground(Ui.rounded(0xCC111925, 22, this));
-        lockToggle = variantButton("LOCK SCREEN", true);
-        homeToggle = variantButton("HOME SCREEN", false);
-        variantRow.addView(lockToggle, new LinearLayout.LayoutParams(0, Ui.dp(this, 44), 1f));
-        variantRow.addView(homeToggle, new LinearLayout.LayoutParams(0, Ui.dp(this, 44), 1f));
-        panel.addView(variantRow);
-
-        TextView title = Ui.label(this, wallpaper.title(), 30, Ui.TEXT, true);
+        TextView title = Ui.label(this, wallpaper.title(), 27, Ui.TEXT, true);
         LinearLayout.LayoutParams titleParams = new LinearLayout.LayoutParams(
                 ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
-        titleParams.topMargin = Ui.dp(this, 17);
         panel.addView(title, titleParams);
 
-        TextView description = Ui.label(this, wallpaper.description(), 14, 0xFFD2DAE4, false);
-        description.setLineSpacing(0, 1.12f);
-        LinearLayout.LayoutParams descriptionParams = new LinearLayout.LayoutParams(
+        TextView destinationPrompt = Ui.label(
+                this, "Where would you like to use it?", 14, 0xFFD2DAE4, false);
+        LinearLayout.LayoutParams promptParams = new LinearLayout.LayoutParams(
                 ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
-        descriptionParams.topMargin = Ui.dp(this, 6);
-        panel.addView(description, descriptionParams);
-
-        TextView resolution = Ui.label(this, "1440 × 3120  ·  DEVICE FITTED  ·  OFFLINE", 10, Ui.MUTED, true);
-        resolution.setLetterSpacing(0.08f);
-        LinearLayout.LayoutParams resolutionParams = new LinearLayout.LayoutParams(
-                ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
-        resolutionParams.topMargin = Ui.dp(this, 11);
-        panel.addView(resolution, resolutionParams);
+        promptParams.topMargin = Ui.dp(this, 6);
+        panel.addView(destinationPrompt, promptParams);
 
         LinearLayout actions = new LinearLayout(this);
         actions.setOrientation(LinearLayout.HORIZONTAL);
@@ -202,25 +183,6 @@ public final class PreviewActivity extends Activity {
         actionsParams.topMargin = Ui.dp(this, 17);
         panel.addView(actions, actionsParams);
         return panel;
-    }
-
-    private TextView variantButton(String text, boolean selected) {
-        TextView button = Ui.label(this, text, 11, selected ? Color.BLACK : Ui.MUTED, true);
-        button.setLetterSpacing(0.08f);
-        button.setGravity(Gravity.CENTER);
-        button.setBackground(Ui.rounded(selected ? Ui.CYAN : Color.TRANSPARENT, 20, this));
-        button.setOnClickListener(view -> setVariant(button == lockToggle));
-        return button;
-    }
-
-    private void setVariant(boolean lock) {
-        if (showingLock == lock) return;
-        showingLock = lock;
-        lockToggle.setTextColor(lock ? Color.BLACK : Ui.MUTED);
-        lockToggle.setBackground(Ui.rounded(lock ? Ui.CYAN : Color.TRANSPARENT, 20, this));
-        homeToggle.setTextColor(lock ? Ui.MUTED : Color.BLACK);
-        homeToggle.setBackground(Ui.rounded(lock ? Color.TRANSPARENT : Ui.CYAN, 20, this));
-        loadPreview(lock ? wallpaper.lockAsset() : wallpaper.homeAsset());
     }
 
     private TextView applyButton(String text, int target) {
@@ -318,4 +280,3 @@ public final class PreviewActivity extends Activity {
         return dialog;
     }
 }
-

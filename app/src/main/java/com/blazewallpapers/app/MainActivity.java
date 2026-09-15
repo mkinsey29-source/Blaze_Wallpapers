@@ -245,14 +245,14 @@ public final class MainActivity extends Activity {
         copy.setPadding(Ui.dp(this, 18), Ui.dp(this, 12), Ui.dp(this, 18), Ui.dp(this, 17));
 
         TextView title = Ui.label(this, wallpaper.title(), wallpaper.featured() ? 25 : 22, Ui.TEXT, true);
-        TextView description = Ui.label(this, wallpaper.description(), 13, 0xFFD3DAE4, false);
-        description.setMaxLines(2);
-        description.setLineSpacing(0, 1.08f);
         copy.addView(title);
-        LinearLayout.LayoutParams descriptionParams = new LinearLayout.LayoutParams(
+
+        TextView collection = Ui.label(this, WallpaperCatalog.COLLECTION_NAME, 10, 0xFFD3DAE4, true);
+        collection.setLetterSpacing(0.1f);
+        LinearLayout.LayoutParams collectionParams = new LinearLayout.LayoutParams(
                 ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
-        descriptionParams.topMargin = Ui.dp(this, 6);
-        copy.addView(description, descriptionParams);
+        collectionParams.topMargin = Ui.dp(this, 7);
+        copy.addView(collection, collectionParams);
 
         FrameLayout.LayoutParams copyParams = new FrameLayout.LayoutParams(
                 ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT,
@@ -267,4 +267,3 @@ public final class MainActivity extends Activity {
         return card;
     }
 }
-
