@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Blaze Wallpapers</string>
+    <string name="image_load_failed">The full-resolution image could not be loaded.</string>
+</resources>
+
