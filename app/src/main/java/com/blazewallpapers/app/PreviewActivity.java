@@ -130,7 +130,7 @@ public final class PreviewActivity extends Activity {
         back.setOnClickListener(view -> finish());
         row.addView(back, new LinearLayout.LayoutParams(Ui.dp(this, 46), Ui.dp(this, 46)));
 
-        TextView collection = Ui.label(this, WallpaperCatalog.COLLECTION_NAME, 11, Ui.TEXT, true);
+        TextView collection = Ui.label(this, wallpaper.collectionLabel(), 11, Ui.TEXT, true);
         collection.setLetterSpacing(0.12f);
         collection.setGravity(Gravity.CENTER);
         row.addView(collection, new LinearLayout.LayoutParams(0, ViewGroup.LayoutParams.WRAP_CONTENT, 1f));
@@ -156,12 +156,6 @@ public final class PreviewActivity extends Activity {
         LinearLayout panel = new LinearLayout(this);
         panel.setOrientation(LinearLayout.VERTICAL);
         panel.setPadding(Ui.dp(this, 20), Ui.dp(this, 28), Ui.dp(this, 20), Ui.dp(this, 18));
-
-        TextView type = Ui.label(this, wallpaper.typeLabel() + " WALLPAPER", 11, Ui.CYAN, true);
-        type.setLetterSpacing(0.12f);
-        LinearLayout.LayoutParams typeParams = new LinearLayout.LayoutParams(
-                ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
-        panel.addView(type, typeParams);
 
         TextView destinationPrompt = Ui.label(
                 this, "Where would you like to use it?", 14, 0xFFD2DAE4, false);

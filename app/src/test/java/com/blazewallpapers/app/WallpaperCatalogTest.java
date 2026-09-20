@@ -11,13 +11,14 @@ import java.util.Set;
 
 public final class WallpaperCatalogTest {
     @Test
-    public void catalogContainsThreeUniqueDeviceFittedPairs() {
-        assertEquals(3, WallpaperCatalog.all().size());
+    public void catalogContainsSixUniqueDeviceFittedPairs() {
+        assertEquals(6, WallpaperCatalog.all().size());
         Set<String> ids = new HashSet<>();
         int featured = 0;
 
         for (Wallpaper wallpaper : WallpaperCatalog.all()) {
             assertTrue(ids.add(wallpaper.id()));
+            assertNotNull(wallpaper.collectionLabel());
             assertEquals("STATIC", wallpaper.typeLabel());
             assertTrue(wallpaper.lockAsset().endsWith("_lock.webp"));
             assertTrue(wallpaper.homeAsset().endsWith("_home.webp"));
@@ -34,5 +35,14 @@ public final class WallpaperCatalogTest {
         assertNotNull(wallpaper);
         assertTrue(wallpaper.featured());
         assertEquals("STATIC", wallpaper.typeLabel());
+    }
+
+    @Test
+    public void emberMoonContainsThreeDeviceFittedPairs() {
+        int emberMoon = 0;
+        for (Wallpaper wallpaper : WallpaperCatalog.all()) {
+            if ("EMBER MOON".equals(wallpaper.collectionLabel())) emberMoon++;
+        }
+        assertEquals(3, emberMoon);
     }
 }

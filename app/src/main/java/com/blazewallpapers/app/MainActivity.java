@@ -111,7 +111,7 @@ public final class MainActivity extends Activity {
         titleRow.addView(favoriteCount);
         outer.addView(titleRow);
 
-        TextView collection = Ui.label(this, "NEON SOLITUDE  ·  VOLUME 01", 11, Ui.MUTED, true);
+        TextView collection = Ui.label(this, "CURATED COLLECTIONS  ·  VOLUME 01", 11, Ui.MUTED, true);
         collection.setLetterSpacing(0.08f);
         LinearLayout.LayoutParams collectionParams = new LinearLayout.LayoutParams(
                 ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
@@ -197,8 +197,7 @@ public final class MainActivity extends Activity {
         card.setClipToOutline(true);
         card.setBackground(Ui.rounded(Ui.PANEL, 24, this));
         card.setOutlineProvider(ViewOutlineProviders.ROUNDED_24);
-        card.setContentDescription("Open " + WallpaperCatalog.COLLECTION_NAME
-                + " " + wallpaper.typeLabel().toLowerCase() + " wallpaper");
+        card.setContentDescription("Open " + wallpaper.collectionLabel() + " wallpaper");
 
         ImageView image = new ImageView(this);
         image.setScaleType(ImageView.ScaleType.CENTER_CROP);
@@ -241,7 +240,7 @@ public final class MainActivity extends Activity {
             renderCatalog();
         });
 
-        TextView type = Ui.label(this, wallpaper.typeLabel(), 10, Ui.TEXT, true);
+        TextView type = Ui.label(this, wallpaper.collectionLabel(), 10, Ui.TEXT, true);
         type.setLetterSpacing(0.12f);
         type.setGravity(Gravity.CENTER);
         type.setBackground(Ui.outlined(0xC9070B12, 0x663D5268, 14, this));

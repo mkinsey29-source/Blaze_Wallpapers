@@ -5,12 +5,15 @@ static and parallax collections.
 
 ## Android vertical slice
 
-The first test build is intentionally offline and contains the three approved
-Neon Solitude wallpaper pairs:
+The current offline catalog contains six approved device-fitted wallpaper
+pairs across Neon Solitude and Ember Moon:
 
 - Rooftop Silence (featured)
 - Solitary Station
 - Last Bus
+- Moon Courier
+- Bell Keeper
+- Sky Fisher
 
 The app provides a premium gallery, favorites, separate lock/home previews, and
 direct Home, Lock, or Both application through Android's `WallpaperManager`.
@@ -33,6 +36,8 @@ The initial package identifier is `com.blazewallpapers.app`.
 
 - `Neon Solitude` — quiet nighttime environments with restrained neon light,
   rain, reflections, fog, and uncluttered areas for phone UI.
+- `Ember Moon` — original moonlit fantasy scenes using deep cyan, ember orange,
+  rain, water reflections, and small narrative characters.
 
 ## Asset layout
 
