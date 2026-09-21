@@ -1,16 +1,24 @@
 # Ember Moon
 
 An approved original fantasy collection built around rain-dark cyan nights,
-ember-orange light, monumental moons, reflective water, and small narrative
-figures. Individual titles are internal production identifiers; the app presents
-the customer-facing collection name `Ember Moon`.
+ember-orange light, monumental moons, reflective surfaces, and small narrative
+figures. Individual titles are internal production identifiers; customers see
+the collection name `Ember Moon — Volume 1`.
 
-## Approved pairs
+## Approved legacy paired exports
 
 1. `001-moon-courier`
 2. `002-bell-keeper`
 3. `003-sky-fisher`
 
-Each directory contains coordinated 1440 x 3120 lock-screen and home-screen
-exports. App-bundled copies and 480 x 1040 gallery thumbnails live under
-`app/src/main/assets/`.
+These three directories preserve the earlier 1440 × 3120 coordinated lock/home
+exports created for the Android prototype.
+
+## Approved standalone Volume 1 entries
+
+4. `004-lantern-ferryman`
+5. `005-glasswing-cartographer`
+
+The commercial theme-pack direction uses one standalone wallpaper per entry,
+not separate lock/home variants. New final entries use 2160 × 3840 high-quality
+WebP delivery exports after a detail pass and full-resolution inspection.
