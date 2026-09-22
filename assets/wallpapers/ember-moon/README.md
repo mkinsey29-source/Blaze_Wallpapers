@@ -16,9 +16,19 @@ exports created for the Android prototype.
 
 ## Approved standalone Volume 1 entries
 
-4. `004-lantern-ferryman`
-5. `005-glasswing-cartographer`
+4. `004-lantern-ferryman` — portrait complete; landscape pending
+5. `005-glasswing-cartographer` — portrait complete; landscape pending
+6. `006-storm-kitewright` — portrait and landscape complete
+7. `007-ember-gardener` — portrait and landscape complete
+8. `008-cloudbridge-engineer` — portrait and landscape complete
 
-The commercial theme-pack direction uses one standalone wallpaper per entry,
-not separate lock/home variants. New final entries use 2160 × 3840 high-quality
-WebP delivery exports after a detail pass and full-resolution inspection.
+## Commercial delivery standard
+
+Each artwork receives two separately composed high-quality WebP files:
+
+- portrait: 2160 × 3840 (9:16)
+- landscape: 3840 × 2160 (16:9)
+
+These are device-orientation variants of one artwork, not lock/home pairs.
+Landscape versions must be deliberately recomposed rather than produced by
+cropping or stretching the portrait.
