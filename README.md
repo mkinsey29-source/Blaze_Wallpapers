@@ -1,55 +1,59 @@
-# Blaze Wallpapers
+# Blaze Wallpaper Bundles
 
-An Android-first premium wallpaper app built around original, device-fitted
-static and parallax collections.
+Blaze creates original premium wallpaper theme bundles for direct download.
+The Android app is no longer the active product; the prototype remains in this
+repository for reference while new work focuses on finished artwork packs for
+Etsy and other storefronts.
 
-## Android vertical slice
+## Bundle standard
 
-The current offline catalog contains six approved device-fitted wallpaper
-pairs across Neon Solitude and Ember Moon:
+Each approved scene is delivered as two separately composed wallpapers:
 
-- Rooftop Silence (featured)
-- Solitary Station
-- Last Bus
-- Moon Courier
-- Bell Keeper
-- Sky Fisher
+- Portrait: `2160x3840` WebP (`9:16`)
+- Landscape: `3840x2160` WebP (`16:9`)
 
-The app provides a premium gallery, favorites, separate lock/home previews, and
-direct Home, Lock, or Both application through Android's `WallpaperManager`.
-No account, network service, analytics, advertising, or payment SDK is included
-in this build.
+Landscape versions are not crops or stretched copies of portrait artwork.
+Final wallpapers contain no device mockups, text, logos, or watermarks.
+Optional parallax releases include a flattened wallpaper plus registered source
+layers, configuration, and a motion preview.
 
-### Build
+## Theme collections
 
-The project uses Java 17, Android Gradle Plugin 9.4, `compileSdk`/`targetSdk` 36,
-and a minimum SDK of 26. A GitHub Actions workflow builds and uploads a numbered
-debug APK on pushes and pull requests.
+Current and developing collections include:
 
-```sh
-gradle testDebugUnitTest lintDebug assembleDebug
-```
-
-The initial package identifier is `com.blazewallpapers.app`.
-
-## Collections
-
-- `Neon Solitude` — quiet nighttime environments with restrained neon light,
-  rain, reflections, fog, and uncluttered areas for phone UI.
-- `Ember Moon` — original moonlit fantasy scenes using deep cyan, ember orange,
-  rain, water reflections, and small narrative characters.
+- Ember Moon
+- Neon Solitude
+- Wild Presence
+- Christmas Skater
+- Sunroom Reverie
+- Skyloom Festival
+- Solar Pursuit
+- Against the Gale
 
 ## Asset layout
 
-Each wallpaper has its own numbered directory containing:
+Artwork is organized under `assets/wallpapers/<theme>/<scene>/`:
 
-- `masters/` — original working images retained without replacement.
-- `exports/<resolution>/` — device-ready lock-screen and home-screen files.
-- `PROVENANCE.md` — generation, editing, rights, and quality-control notes.
+- `masters/` — original working files retained for future editing
+- `exports/2160x3840/` — customer-ready portrait wallpapers
+- `exports/3840x2160/` — customer-ready landscape wallpapers
+- `parallax/` — optional layered sources, configuration, and previews
+- `PROVENANCE.md` — generation, editing, rights, and quality-control notes
 
-Do not publish a master directly. Application builds and downloads should use
-the files under `exports/`.
+Storefront bundles ship from `exports/`. Masters and app-bundled copies are not
+customer deliverables.
 
-App-bundled copies live under `app/src/main/assets/`; thumbnails are separate
-lower-memory derivatives so the gallery does not decode six full-resolution
-images at once.
+## Release checks
+
+Before a wallpaper enters a bundle, confirm:
+
+- exact dimensions and sRGB color
+- independent portrait and landscape composition
+- clean edges and convincing physical contact, water, shadows, and motion
+- no unintended text, logos, watermarks, or duplicated artifacts
+- complete provenance and licensing notes
+
+## Archived Android prototype
+
+The Java Android prototype and its build workflow remain in the repository as
+historical reference. They are not the current product direction.
