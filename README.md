@@ -29,6 +29,8 @@ Current and developing collections include:
 - Skyloom Festival
 - Solar Pursuit
 - Against the Gale
+- Through the Glass
+- Sideways Suburbia
 
 ## Asset layout
 
